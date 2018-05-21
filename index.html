@@ -3,112 +3,39 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Kalam:700" rel="stylesheet">
   <link rel="stylesheet" href="main.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <title>Who Is Cory Pease</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <title>If I Was Cory Pease!</title>
 </head>
 
 <body>
-  <div class="container">
-      <div class='row'>
-        <div class="card">
-          <div class="card-image">
-            <img src="Pictures/mama.jpg">
-            <span class="card-title"></span>
-          </div>
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">Tracy Owens</a>
-          </div>
+  <div class="whole">
+    <div class="header">
+      <p>Who Is Cory Pease?</p>
+    </div>
+    <div class="top">
+      <div class="lcont">
+        <img class="picture" src="Pictures/mama.jpg" alt="P1">
+        <img class="picture" src="Pictures/Taylor.jpg" alt="P2">
+      </div>
+      <div class="main">
+        <img class="mainPic" src="Pictures/Cory.jpg" alt="self">
+        <div class="botMain">
+          <img class="picture" src="Pictures/Cole.jpg" alt="P5">
+          <img class="picture" src="Pictures/Nobles.jpg" alt="P6">
         </div>
-        <div class="card">
-          <div class="card-image">
-            <img src="Pictures/Cory.jpg">
-            <span class="card-title"></span>
-          </div>
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">Cory Pease</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <img src="Pictures/Ni.jpg">
-            <span class="card-title"></span>
-          </div>
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">Athena Mitchell</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <img src="Pictures/Taylor.jpg">
-            <span class="card-title"></span>
-          </div>
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">Taylor Finley-Ponds</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <img src="Pictures/Camon.jpg">
-            <span class="card-title"></span>
-          </div>
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">Camon Finley-Ponds</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <img src="Pictures/Cole.jpg">
-            <span class="card-title"></span>
-          </div>
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">Cole Finley-Ponds</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <img src="Pictures/Nobles.jpg">
-            <span class="card-title"></span>
-          </div>
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">Dawnielle Nobles</a>
-          </div>
-        </div>
+      </div>
+      <div class="rcont">
+        <img class="picture" src="Pictures/Ni.jpg" alt="P3">
+        <img class="picture" src="Pictures/Camon.jpg" alt="P4">
+      </div>
     </div>
   </div>
 </body>
 <script type="text/javascript">
-// $(function() {
-// $(".card").click(function() {
-//   $("div").hide(1000);
-// });
-// });
-// $(function() {
-$(".card").click(function() {
-  $(".card-content, .card-action").toggle(2000);
-});
-// });
+$(".mainPic").hover(function(){
+   $(".picture").show(1000);
+ })
 </script>
 </html>

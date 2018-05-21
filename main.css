@@ -1,14 +1,66 @@
 body {
-  background-color: #880000;
+  display: flex;
+  background-color: maroon;
 }
-div .card-content p{
-  color: black;
+
+.whole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
 }
-div .row .card{
-  float: left;
-  margin: 25px;
-  max-height: 700px;
-  max-width: 300px;
-  /* min-height: 700px;
-  min-width: 300px; */
+.header{
+  font-family: 'Kalam', cursive;
+  color: white;
+  font-size: 50px;
+}
+
+div .top {
+  display: flex;
+  justify-content: center;
+}
+
+div .lcont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div .main {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+div .botMain{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+div .rcont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* div .bottom {
+  display: flex;
+  justify-content: center;
+} */
+
+.picture{
+  display: none;
+}
+
+.mainPic{
+  border-style: solid;
+  border-color: orange;
+}
+
+div img{
+  height: 300px;
+  width: 300px;
 }
