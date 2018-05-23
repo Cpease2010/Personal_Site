@@ -6,13 +6,15 @@ body {
 h1 {
   margin: 10px;
 }
+
 .whole {
   align-items: center;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
 }
-.header, #names{
+
+.header, .names {
   color: white;
   font-family: 'Kalam', cursive;
   font-size: 30px;
@@ -44,22 +46,22 @@ div .mainTop {
 }
 
 div .leftMaintop {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex: 1;
-    align-items: center;
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 div .rightMaintop {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex: 1;
-    align-items: center;
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-div .botMain{
+div .botMain {
   align-self: center;
   display: flex;
   justify-content: center;
@@ -71,21 +73,21 @@ div .rcont {
   justify-content: center;
 }
 
-.picture{
+.picture {
   display: none;
 }
 
-.mainPic{
+.mainPic {
   border-color: orange;
   border-style: solid;
 }
 
-div img{
+div img {
   height: 300px;
   width: 300px;
 }
 
-#names {
+.names {
   border-color: black;
   border-style: double;
   margin: auto;
