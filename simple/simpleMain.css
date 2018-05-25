@@ -1,0 +1,21 @@
+.container {
+  background-color: #003d5d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  color: white;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  color: #f23d5d;
+}
+img {
+  max-width: 500px;
+  max-height: 300px;
+}
+
+h2  {
+  color: 	#8c3d5d;
+}
